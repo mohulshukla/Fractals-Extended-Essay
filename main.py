@@ -1,11 +1,10 @@
-# function testing whether or not a particular value is in the mandelbrot set
 import random
 
 a = -1
 b = 1
 random_generator = random.uniform(a, b)
 
-
+# function testing whether or not a particular value is in the mandelbrot set
 def is_in_mandelbrot(c, max_iterations=100):
     z = 0
     for i in range(max_iterations):
